@@ -12,10 +12,7 @@ var icon = document.querySelector(".icon")
 var temp = document.querySelector(".temp")
 var humid = document.querySelector(".humid")
 var deg = document.querySelector(".deg")
-var icons = {
-    "Clouds" : "img/cloudy.png",
-    "Thunderstorm" : "img/thunderstorm.png"
-}
+
 
 // dedine functions 
 function iconSelector(weather){
